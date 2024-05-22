@@ -1,6 +1,6 @@
 .head{
     text-align: center;
-    color: aqua;
+    color: rgb(8, 133, 116);
 }
 .main2{
     border: 1px solid black;
@@ -10,33 +10,30 @@
     text-align: center;
 }
 .div1{
-    margin: 10px;
+    margin: 5px;
 }
 
 .a{
     width: 150px;
     height: 150px;
+    border: 2px solid rgb(208, 226, 43);
 }
-.b{
-    width: 150px;
-    height: 150px;
+@media only screen and (max-width: 600px){
+    .main2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 }
-c.{
-    height: 150px;
-    
-}
-d.{
-    height: 150px;
-    width: 150px;
-}
-
-/* @media only screen and (min-width: 1000px){
-    .div0{
-    border: 1px solid black;
+@media only screen and (min-width: 600px){
+.main2{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-}} */
-
-
-
+    grid-template-columns: auto auto auto;
+}
+}
+@media only screen and (min-width: 1000px){
+    .main2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
 
